@@ -1,0 +1,36 @@
+.wrapper {
+
+width: 600px;
+height: 600px;
+background: #eee;
+margin-left: 20px;
+}
+
+.input{
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.first {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.txtarea{
+   
+}
+.send{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(230, 170, 66);
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+.sub{
+    margin-top: 20px;
+}
+

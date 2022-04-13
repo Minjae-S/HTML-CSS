@@ -1,0 +1,54 @@
+h3{
+    text-align: center;
+}
+.job{
+    text-align: center;
+    
+}
+.box{
+    background: #eee;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin: 10px;
+    padding: 40px;
+    /* display: block; div,p,h 박스 안에서는 기본으로 가지고있음 가로행을 전부 차지해주세요 */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px 10px rgb(81, 81, 81);
+
+}
+.wrapper{
+    width: 800px;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #eee;
+}
+.left-menu{
+    width: 20%;
+    height: 400px;
+    background-color: cornflowerblue;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top; 
+
+}
+.right{
+    
+    background-color: pink ;
+    width: 80%;
+    height: 400px;
+    /* float: left; */
+    display: inline-block;
+
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    /* clear: both; */
+
+}

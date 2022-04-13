@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border-radius: 5px;
+}
+.wrapper{
+    position: relative;
+}
+.banner{
+   
+    margin: auto;
+    background: rgb(64, 100, 176);
+    width: 100%;
+    height: 400px;
+  
+}
+.banner button{
+    width: 100px;
+    height: 38px;
+    border: none;
+    background: rgb(72, 71, 71)
+
+    ;
+    color: white;
+    margin-top: 10px;
+}
+.banner p{
+    margin-top: 10px;
+}
+.banner img{
+   float: right;
+   
+    width: 20%;
+}
+
+.sec-banner{
+    display: flex;
+    justify-content: center;
+    flex-direction : column ;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 250px;
+    
+    
+}
+.ex p{
+    margin-top: 8px;
+}
+.ex button{
+    margin-top: 8px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgb(72, 70, 70);
+}
+
+.third-banner{
+    background-color:rgb(64, 100, 176);
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.third-banner.title{
+    text-align: center;
+    height:120px;
+    padding: 30px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.items{
+    padding: 30px;
+}
+
+.items p{
+    margin-top: 8px;
+}
+.items i{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: rgb(64, 100, 176);
+    margin-top: 10px;
+}
+.images img {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
