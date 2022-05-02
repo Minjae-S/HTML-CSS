@@ -1,0 +1,18 @@
+@use "reset.scss"; //reset.scss에 있던 파일 가져와줘세요
+
+@mixin 폰트스타일($구멍, $구멍2) {
+  font-size: $구멍;
+  letter-spacing: $구멍2;
+}
+
+h2 {
+  @include 폰트스타일(30px, 1px);
+}
+h3 {
+  @include 폰트스타일(20px, 2px);
+}
+
+h4 {
+  @include 폰트스타일(50px, 3px);
+  color: reset.$메인칼라;
+}

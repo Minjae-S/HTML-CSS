@@ -1,0 +1,46 @@
+div {
+  width: 500px;
+}
+ul {
+}
+.sh-list {
+  li {
+    list-style: none;
+    border: 1px solid eee;
+    padding: 20px;
+  }
+  .active {
+    background-color: skyblue;
+    color: white;
+  }
+}
+%alert {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+
+  color: white;
+}
+.alert-box-1 {
+  @extend %alert;
+  background-color: green;
+}
+.alert-box-2 {
+  @extend %alert;
+  background-color: orange;
+}
+.alert-box-3 {
+  @extend %alert;
+  background-color: skyblue;
+}
+.row .col-4 {
+  @include column(33%);
+}
+.row .col-6 {
+  @include column(50%);
+}
+@mixin column($구멍) {
+  float: left;
+  width: $구멍;
+  padding: 15px;
+}
